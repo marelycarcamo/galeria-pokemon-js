@@ -9,7 +9,7 @@ async function capturaDatos(i) {
     // Crear la tarjeta del Pokémon
     let tarjeta = `
         <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2  mb-4">
-            <div class="card shadow h-100 d-flex flex-column mx-1">
+            <div class="card shadow h-100 d-flex flex-column">
                 <div class="d-flex align-items-end justify-content-center" style="height:220px; overflow:hidden;">
                 <img src="${urlPokemon}" class="card-img-top img-fluid px-3"  style="width:auto; height:80%; " alt="${nombrePokemon}">
                 </div> 
