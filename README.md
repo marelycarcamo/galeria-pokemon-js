@@ -1,0 +1,1 @@
+# galeriaPokemon.js
