@@ -2,14 +2,14 @@ async function capturaDatos(i) {
     let url = "https://pokeapi.co/api/v2/pokemon/" + i;
     let respuesta = await fetch(url);
     let datosPokemon = await respuesta.json();
-    let urlPokemon = datosPokemon.sprites.other.dream_world.front_default; //url imagen pokemon
-    let numeroPokemon = `#${datosPokemon.id}`;  // número de pokemon
-    let nombrePokemon = `${datosPokemon.name}`;  // nombre de pokemon
+    let urlPokemon = datosPokemon.sprites.other.dream_world.front_default; // Url Imagen pokemon
+    let numeroPokemon = `#${datosPokemon.id}`;  // Número de pokemon
+    let nombrePokemon = `${datosPokemon.name}`;  // Nombre de pokemon
 
     // Crear la tarjeta del Pokémon
     let tarjeta = `
         <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-            <div class="card shadow h-100 d-flex flex-column flex-md-wrap">
+            <div class="card shadow h-100">
                 <div class="d-flex align-items-end justify-content-center" style="height:200px; overflow:hidden;">
                 <img src="${urlPokemon}" class="card-img-top img-fluid p-3" style="width:auto; height:80%; " alt="${nombrePokemon}">
                 </div> 
