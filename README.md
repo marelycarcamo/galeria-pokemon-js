@@ -2,6 +2,8 @@
 
 <p align="justify">Este proyecto es una galería de Pokémon construida con HTML, CSS (Bootstrap) y JavaScript (jQuery). Utiliza la API de [PokéAPI](https://pokeapi.co/) para obtener datos de los primeros 150 Pokémon y los muestra en una cuadrícula de tarjetas.</p>
 
+https://marelycarcamo.github.io/galeria-pokemon-js/
+
 ## Descripción
 
 <p align="justify">Cada tarjeta de la galería muestra la imagen de un Pokémon, su nombre y su número de identificación. Las tarjetas se generan dinámicamente utilizando JavaScript y jQuery. La galería es responsive, lo que significa que se adapta a diferentes tamaños de pantalla.</p>
