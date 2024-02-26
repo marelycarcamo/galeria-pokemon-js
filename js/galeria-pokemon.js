@@ -9,11 +9,11 @@ async function capturaDatos(i) {
     // Crear la tarjeta del Pokémon
     let tarjeta = `
         <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
-            <div class="card shadow h-100">
+            <div class="card shadow h-100 pb-1">
                 <div class="d-flex align-items-end justify-content-center" style="height:200px; overflow:hidden;">
-                <img src="${urlPokemon}" class="card-img-top img-fluid p-3" style="width:auto; height:80%; " alt="${nombrePokemon}">
+                <img src="${urlPokemon}" class="card-img-top img-fluid px-3" style="width:auto; height:80%; " alt="${nombrePokemon}">
                 </div> 
-                <div class="card-body">
+                <div class="card-body pb-5">
                     <h5 class="card-title text-center">${nombrePokemon}</h5>
                     <p class="card-text text-center">${numeroPokemon}</p>
                 </div>
